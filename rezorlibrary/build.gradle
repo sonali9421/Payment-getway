@@ -1,5 +1,21 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'Rezor'
+
+    publishedGroupId = 'com.kiaora.rezorlibrary'
+    libraryName = 'rezorlibrary'
+    artifact = 'rezorlibrary'
+
+    siteUrl = 'https://github.com/sonali9421/Payment-getway'
+    gitUrl = 'https://github.com/sonali9421/Payment-getway.git'
+
+    libraryDescription = 'Rezor Payment gateway Integration'
+    libraryVersion = '0.0.1'
+}
+
+version = '1.0'
 
 android {
     compileSdkVersion 27
