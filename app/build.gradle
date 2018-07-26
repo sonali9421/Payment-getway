@@ -28,5 +28,7 @@ dependencies {
 
     implementation project(':paypallibrary')
   //  implementation project(':payumonylibrary')
-    implementation project(':rezorlibrary')
+    //implementation project(':rezorlibrary')
+
+    //implementation 'com.kiaora.rezorlibrary:rezorlibrary:0.0.1'
 }

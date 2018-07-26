@@ -11,6 +11,10 @@ ext {
     siteUrl = 'https://github.com/sonali9421/Payment-getway'
     gitUrl = 'https://github.com/sonali9421/Payment-getway.git'
 
+    developerId = 'sonali9421'
+    developerName = 'sonali'
+    developerEmail = 'sonali.kiaora@gmail.com'
+
     libraryDescription = 'Rezor Payment gateway Integration'
     libraryVersion = '0.0.1'
 }
