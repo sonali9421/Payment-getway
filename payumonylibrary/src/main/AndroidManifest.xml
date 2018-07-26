@@ -1,0 +1,18 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.kiaora.payumonylibrary">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name=".BaseApplication">
+
+        <activity android:name=".PayuMoneyActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="fabaabc4273e4e67d52a5410e9b2fa7a59088976" />
+
+    </application>
+</manifest>
